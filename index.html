@@ -9,29 +9,42 @@
 		<link rel="stylesheet" href="portfolio.css">
 	<title>Evarist Jaume</title>
 </head>
+
 <body>
 	<div class="container">
 		<div class="row">
 			<div class="col-6 col-md-4">
 				<img class="fPerfil" src="images/fotoPerfil_mini.jpg" alt="Foto de perfil">
 				<div class="logo">
-					<h1>EJ</h1>
+					<h1>E.J</h1>
 				</div>
 				<div class="description">
-					<h4>Programador web y de aplicaciones</h4>
+					<h4>features:</h4>
+					<h3><img src="images/iconfinder_mini.png" alt="Mayor">Programador y diseñador web</h3>
+					<br>
+					<h3>Soñador y aventurero<img src="images/iconfinder_mini_menor.png" alt="Mayor"></h3>
+				</div>
+				<div class="contacto">
+					
 				</div>
 			</div>
 			<div class="col-12 col-md-8">
 					<div id="slider">
-					<figure>
-					<a href="#proyecto1"><img src="images/movie3000.PNG" alt="Movie 3000"></a>
-					<p>mi primer trabajo</p>
-					<a href="#formacion"><img src="images/formacion.jpg" alt="Formacion foto"></a>
-					<img src="images/horizonte-singapur.jpg" alt="">
-					<img src="images/vista-posterior-caminante.jpg" alt="">
-					<img src="images/movie3000.PNG" alt="">
-					</figure>
+						<figure>
+							<a href="#movie3000"><img src="images/movie3000.PNG" alt="Movie 3000"></a>
+							<p>mi primer trabajo</p>
+							<a href="#formacion"><img src="images/formacion.jpg" alt="Formacion foto"></a>
+							<a href="#yo"><img src="images/vista-posterior-caminante.jpg" alt="Yo en la montaña"></a>
+							<a href="#ambiciones"><img src="images/camino.jpg" alt=""></a> 
+							<a href="#movie3000"><img src="images/movie3000.PNG" alt=""></a>
+						</figure>
 					</div>
+					<div class="contacto">
+						<img src="images/github.png" alt="">
+						<img src="images/linkedin.png" alt="">
+						<img src="images/heroku.png" alt="">
+					</div>
+				
 			</div>
 		</div>
 	</div>
@@ -40,25 +53,74 @@
 	<br>
 	<section class="central">
 		<article id="movie3000">
-			<h1 id="tituloProyectos">Mi primer proyecto</h1>
-			<div class="textImg">
-				<p>
-					Movie3000
-				</p>
-				<p>
-					con Ruby on Rails
-				</p>
+			<h1 id="tituloProyectos">mi primer proyecto</h1>
+			<br>
+			<div id="imagenProyeto">
+					<p>
+						Movie3000	con Ruby on Rails
+					</p>
+				<img id="fotoPieProyecto" src="images/niño_computer.png" alt="niño programando">
+				<img id="fotoMovie3000" src="images/movie3000.PNG" alt="Movie3000">
+				<div class="textImg">
+					<p>
+						Me sentí como un niño con un juguete nuevo,<br> era la primera vez que "picaba" código,<br> y salió esto...
+					</p>
+				</div>
 			</div>
-			<img id="fotoMovie3000" src="images/movie3000.PNG" alt="Movie3000">
 		</article>
 		<br>
 		<hr>
 		<br>
 		<article id="formacion">
-			<h1 id="tituloFormacion">¿En qué me he formado?</h1>
+			<h1 id="tituloFormacion">¿en qué me he formado?</h1>
+			<br>
 			<p>
-				Pues en un millar de cosas que estoy dispuesto a contarte, pero para no aburrirte te resumo en unas pocas lineas
-				y el resto lo descubrimos tomando unas cervezas.
+				Pues en un millar de cosas que estoy dispuesto a contarte,
+				<p>pero para no aburrirte te resumo en unas pocas lineas</p>
+				<p> y el resto lo descubrimos tomando unas cervezas.</p>
+			</p>
+			<br>
+			<div id="lenguajes">
+				<ul id="listaLenguajes">
+					<li id="java"><a href="">Java 8</a></li>
+					<li id="cSharp"><a href="">C#</a></li>
+					<li id="js"><a href="">JavaScript</a></li>
+					<li id="dWeb"><a href="">Diseño Web</a></li>
+				</ul>
+			</div>
+		</article>
+		<br>
+		<hr>
+		<br>
+		<article id="yo">
+			<div class="logo2">
+				<h1>E.J</h1>
+			</div>
+			<h1 class="tituloYo">
+				Sobre mi
+			</h1>
+			<p class="izquierda">
+				El tiempo libre lo dedico a...
+			</p>
+			<div class="hobbies">
+				<img src="images/world.png" alt="Viajar">
+				<img src="images/bike.png" alt="Bicicleta de montaña">
+				<img src="images/climbing.png" alt="Montaña">
+				<img src="images/running-man.png" alt="Correr">
+				<img src="images/joystick.png" alt="Videojuegos">
+				<p class="tituloYo2">
+					y por supuesto...
+				</p>
+				<img src="images/pet.png" alt="Mascotas">
+			</div>
+		</article>
+		<br>
+		<hr>
+		<br>
+		<article id="ambiciones">
+			<h1>Que huella me gustaría dejar</h1>
+			<p>
+				Me gustaría realizar proyectos...
 			</p>
 		</article>
 	</section>
