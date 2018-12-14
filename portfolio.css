@@ -1,17 +1,49 @@
-body {
-	color: red;
-	background-color: whitesmoke;
-	max-width: 100%;
+/*slider*/
+@keyframes slidy {
+	0% { left: 0%; }
+	20% { left: 0%; }
+	25% { left: -100%; }
+	45% { left: -100%; }
+	50% { left: -200%; }
+	70% { left: -200%; }
+	75% { left: -300%; }
+	95% { left: -300%; }
+	100% { left: -400%; }
+	}
+	
+	body { margin: 0; } 
+	div#slider { overflow: hidden; }
+	div#slider figure img { width: 20%; float: left; }
+	div#slider figure { 
+		position: relative;
+		width: 500%;
+		margin: 0;
+		left: 0;
+		text-align: left;
+		font-size: 0;
+		animation: 10s slidy infinite; 
+	}
+	.row {
+	margin-top: 25px;
 }
-.tableRow {
-	display: table-row;
-	background-image: linear-gradient(to bottom left, rgb(255, 0, 0), rgb(0, 255, 255));
+/*lateral*/
+.row {
+	margin-top: 25px;
 }
-.yo {
-	display: table-cell;
-	background-image: linear-gradient(to bottom left, rgb(43, 255, 0), rgb(194, 200, 255));
+.fPerfil{
+	margin: 0px 10px 0px 0px;
+	max-width: 85%;
 }
-#imgPrueba {
-	max-width: 100%; 
-	max-height: 100%;
+
+/*secciones*/
+.central {
+	text-align: center;
+}
+#fotoMovie3000 {
+	width: 45%;
+	height: 45%;
+}
+.textImg {
+	float: left;
+	margin-left: 15%;	
 }
