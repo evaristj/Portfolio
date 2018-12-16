@@ -86,7 +86,11 @@ body {
 	font-size: 125%;
 }
 .contacto {
-	
+	text-align: center;
+	margin-top: 5%;
+}
+.contacto img {
+	margin-left: 15%;
 }
 
 /*secciones*/
@@ -122,7 +126,7 @@ section article #tituloProyectos {
 }
 #lenguajes ul #java:hover {
 	border: none;
-	padding: 8%;
+	padding: 6%;
 	transition: all 1s;
 	margin: 6%;
 	background-size: 100%;
@@ -131,7 +135,7 @@ section article #tituloProyectos {
 }
 #lenguajes ul #cSharp:hover {
 	border: none;
-	padding: 8%;
+	padding: 6%;
 	transition: all 1s;
 	margin: 6%;
 	background-image: url(https://ih0.redbubble.net/image.416412087.0587/flat,550x550,075,f.jpg);
@@ -139,7 +143,7 @@ section article #tituloProyectos {
 }
 #lenguajes ul #js:hover {
 	border: none;
-	padding: 8%;
+	padding: 6%;
 	transition: all 1s;
 	margin: 6%;
 	background-image: url(https://vignette.wikia.nocookie.net/programa/images/a/ad/Javascript-logo.png/revision/latest?cb=20161202015025&path-prefix=es);
@@ -147,7 +151,7 @@ section article #tituloProyectos {
 }
 #lenguajes ul #dWeb:hover {
 	border: none;
-	padding: 8%;
+	padding: 6%;
 	transition: all 1s;
 	margin: 6%;
 	background-image: url(http://autoescuelalondon.com/wp-content/uploads/2016/01/html-css.jpg);
@@ -164,4 +168,30 @@ section article #tituloProyectos {
 }
 article div img {
 	margin: 5%;
+}
+.frase {
+	font-size: 135%;
+}
+/*footer*/
+footer {
+	
+}
+.ojos1 {
+	padding: 0%;
+  position :relative;
+  animation: ojos 3s infinite;
+}
+@keyframes ojos {
+  from {left: 75%;}
+	to {left: ;}
+}
+.ojos2 {
+	padding: 0%;
+	position : absolute;
+	right: 15%;
+  animation: ojos2 3s infinite;
+}
+@keyframes ojos2 {
+  from {right: 100%;}
+	to {right: 5%;}
 }
