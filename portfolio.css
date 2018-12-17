@@ -92,6 +92,10 @@ body {
 .contacto img {
 	margin-left: 15%;
 }
+.email:hover {
+	background-color: black;
+	color: white;
+}
 
 /*secciones*/
 .central {
