@@ -89,8 +89,15 @@ body {
 	text-align: center;
 	margin-top: 5%;
 }
+.contacto a img:hover {
+	background-color: whitesmoke;
+	padding: 15px;
+	border-radius: 15px;
+	transition: 
+}
 .contacto img {
 	margin-left: 15%;
+	padding: 15px;
 }
 .email:hover {
 	background-color: black;
